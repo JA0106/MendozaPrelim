@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="headder">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="" class="navbar-brand">John Marc's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#scrollspyHeading1" id="abt"
+                                onclick="about()">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading2" id="skill" onclick="skills()">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading3" id="educ" onclick="education()">Education</a>
+                        </li>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#scrollspyHeading4" id="hob"
+                                                onclick="hobbies()">Hobbies</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#scrollspyHeading5" id="proj"
+                                                onclick="projects()">Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item cont">
+                            <a class="nav-link cont" href="#scrollspyHeading6">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="intro d-flex align-items-center introCon">
+            <div class="container text-center">
+                <div class="row align-items-start ">
+                    <div class="col text-start ">
+                        <h1 class="name">John Marc Allyster Mendoza</h1>
+                        <h3 class="title">Web Developer</h3>
+                        <p class="description">I create responsive, user-friendly websites and applications with a focus
+                            on performance and
+                            aesthetics.
+                        </p>
+                        <div class="resume">
+                            <a href="Mendoza Resume.pdf" class="btn btn-primary asob"
+                                download="John-Marc-Resume.pdf">Download Resume</a>
+                            <a href="" class="btn btn-primary asob haha">Download Application Letter</a>
+                        </div>
+                        <div class="socials">
+                            <a href="https://www.instagram.com/nghtyjm/" target="_blank"><img class="social"
+                                    src="./instagram.png" alt=""></a>
+                            <a href="https://github.com/JA0106" target="_blank"><img class="social" src="./github.png"
+                                    alt=""></a>
+                            <a href="https://www.facebook.com/Johnmarc.XD110" target="_blank"><img class="social"
+                                    src="./facebook.png" alt=""></a>
+                            <a href="https://www.tiktok.com/@jjdskdndksjs?lang=en" target="_blank"><img class="social"
+                                    src="./tiktok.png" alt=""></a>
+
+                        </div>
+                    </div>
+                    <div class="col text-end aso">
+                        <img class="profile" src="./2x2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center" id="scrollspyHeading1">
+            <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col text-center pfp2">
+                    <img class="profile2" src="./2x2.png" alt="">
+                </div>
+                <div class="col">
+                    <div class="container text-center aboutCon">
+                        <h1 class="text-start det">Personal Details</h1>
+                        <div class="row align-items-start ">
+                            <div class="col text-start ">
+                                <p class="col dit">
+                                    <strong>Age:</strong> 20 years old
+                                </p>
+                                <p class="col dit">
+                                    <strong>Location:</strong> Sariaya, Quezon
+                                </p>
+                                <p class="col dit">
+                                    <strong>Email:</strong> johnmarc984@gmail.com
+                                </p>
+                            </div>
+                            <div class="col text-start dit">
+                                <p class="col">
+                                    <strong>Phone:</strong> +63 945 707 562
+                                </p>
+                                <p class="col dit">
+                                    <strong>Status:</strong> Single
+                                </p>
+                            </div>
+                            <div> <br></div>
+
+                            <p class="text-start">I am a passionate web developer with expertise in creating dynamic and
+                                responsive websites. I enjoy turning complex problems into simple, beautiful and
+                                intuitive designs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <section id="skills ">
+            <div class="container" id="scrollspyHeading2">
+                <h2 class="section-title">My Skills</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card p-4">
+                            <h3 class="mb-4">Technical Skills</h3>
+
+                            <div class="skill-item">
+                                <p class="mb-1">HTML/CSS</p>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p class="mb-1">JavaScript</p>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p class="mb-1">Bootstrap</p>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 60%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p class="mb-1">C#</p>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card p-4">
+                            <h3 class="mb-4">Professional Skills</h3>
+
+                            <div class="skill-item">
+                                <p class="mb-1">Web Design</p>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 88%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p class="mb-1">UI/UX Design</p>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p class="mb-1">Communication</p>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <p class="mb-1">Problem Solving</p>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="education" id="scrollspyHeading3">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card p-4 mb-4">
+                            <h3>Bachelor of Science in Information Technology</h3>
+                            <h5>CSTC, College of Sciences Technology & Communications Inc., Sariaya, Quezon</h5>
+                            <p class="text-muted">2023 - Present</p>
+                            <p>Focusing on web and mobile application development.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card p-4 mb-4">
+                            <h3>High School Diploma</h3>
+                            <h5>CSTC, College of Sciences Technology & Communications Inc., Sariaya, Quezon</h5>
+                            <p class="text-muted">2017 - 2023</p>
+                            <p>Graduated with honors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="hobbies" id="scrollspyHeading4">
+            <div class="container">
+                <h2 class="section-title">Hobbies & Interests</h2>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <div class="hobby-item">
+                            <img src="./gaming.png" alt="Gaming" class="hobby-icon mb-3">
+                            <h5>Gaming</h5>
+                            <p>Enjoy playing video games in my free time.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="hobby-item">
+                            <img src="./food.png" alt="Traveling" class="hobby-icon mb-3">
+                            <h5>Outdoor Dining</h5>
+                            <p>Loving to explore new places and enjoying meal outside.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="hobby-item">
+                            <img src="./music.png" alt="Music" class="hobby-icon mb-3">
+                            <h5>Music</h5>
+                            <p>Listening to various genres of music.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="scrollspyHeading5">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="./port.png" class="card-img-top" alt="Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Portfolio Website</h5>
+                                <p class="card-text">A personal portfolio website to showcase my projects and skills.
+                                </p>
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="./ecom.png" class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">E-commerce Site</h5>
+                                <p class="card-text">An online store built with a user-friendly interface and secure
+                                    payment system.</p>
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="foot" id="scrollspyHeading6">
+            <p>&copy; 2024 John Marc Allyster Mendoza. All rights reserved.</p>
+            <p>Designed and Developed by John Marc Allyster Mendoza</p>
+        </div>
+        <section class="footer-socials">
+            <a href="https://www.instagram.com/nghtyjm/" target="_blank"><img class="social" src="./instagram.png"
+                    alt=""></a>
+            <a href="https://github.com/JA0106" target="_blank"><img class="social" src="./github.png" alt=""></a>
+            <a href="https://www.facebook.com/Johnmarc.XD110" target="_blank"><img class="social" src="./facebook.png"
+                    alt=""></a>
+            <a href="https://www.tiktok.com/@jjdskdndksjs?lang=en" target="_blank"><img class="social"
+                    src="./tiktok.png" alt=""></a>
+
+        </section>
+    </footer>
+
+    <script src="./bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
