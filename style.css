@@ -55,7 +55,7 @@ strong{
 
 
 
-@media (min-width: 406px) {
+@media (min-width: 300px) {
     .profile {
         display: none;
     }
