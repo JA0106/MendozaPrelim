@@ -56,6 +56,11 @@ strong{
 
 
 @media (min-width: 300px) {
+    .navbar-brand {
+        font-size: 1.1rem!important;
+    }
+    
+    
     .profile {
         display: none;
     }
@@ -76,7 +81,7 @@ strong{
     .aboutCon {
         display: flex;
         width: 90vw !important;
-        height: 50vh !important;
+        height: 60vh !important;
         text-align: start !important;
     }
 
